@@ -43,7 +43,7 @@ public class DropDown {
 
         select.selectByIndex(2);
 
-        select.selectByVisibleText("Option 1");
+
 
         List<WebElement>list=select.getOptions();
         for (WebElement w:list
