@@ -49,6 +49,8 @@ public class DropDown {
         for (WebElement w:list
              ) {
             System.out.println(w.getText());
+
+            System.out.println("feature branch son islem");
         }
   }
 }
