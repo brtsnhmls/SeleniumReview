@@ -13,8 +13,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>5</source>
-                    <target>5</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -22,12 +22,19 @@
 
     <properties>
 
-        <maven.compiler.source>1.0</maven.compiler.source>
-        <maven.compiler.target>1.0</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
      </properties>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 
     <dependencies>
+
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 
