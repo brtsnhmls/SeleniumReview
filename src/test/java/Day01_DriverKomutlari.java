@@ -24,6 +24,8 @@ public class Day01_DriverKomutlari {
         driver.navigate().forward();
 
         driver.navigate().refresh();
+        
+        driver.navigate().back();
 
         driver.navigate().back();
 
