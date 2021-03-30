@@ -43,7 +43,9 @@ public class Review01_Amazon {
 
  WebElement arama=driver.findElement(By.xpath("//input[@name'q']"));
  arama.sendKeys("kemal ozden"+Keys.ENTER);
-
+ System.out.println("Branch 1.satir");
+ System.out.println("Branch 2.satir");
+ System.out.println("Branch 3.satir");
 }
 
     //1. Amazon com'a gidecez
